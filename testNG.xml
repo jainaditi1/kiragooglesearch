@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GoogleSearch">
+
+    <test name="KiraGoogleSearch">
+        <classes>
+           <class name="com.uiautomation.kira.googlesearch.GoogleSearchTest" />
+        </classes>
+    </test>
+    
+</suite>
