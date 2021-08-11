@@ -38,8 +38,11 @@ Models contains representation of entities like Search.Java, SearchResult.java e
 `src/main/resources/drivers` consist of drivers for each browser. Currently it contains only `Chrome` driver, but `firefox`, `IE`, `Safari`, or `Netgear` drivers can be included here. 
 `src/main/testdata/data.properties` consist of testdata like text search on provider name. 
 
-### Tests
+
+### Pre-configuration
 `src/main/java/BasicSetup.java` is the tests superclass for configuration and common code
+
+### Tests
 `kiragooglesearch/src/test/java/com/uiautomation/kira/googlesearch/GoogleSearchTest.java` holds test classes (TestNG)
 
 ### Reports
